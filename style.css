@@ -1,0 +1,31 @@
+.aircraft{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    transition: all 1s;
+    
+}
+
+img{
+    width: 400px;
+    height:300px;
+    margin: 15px;
+}
+img:hover{
+    transform: scale(1.2);
+}
+h1{
+    border: 2px solid #2ae63d;   
+    background-color: #2afb27d2;     
+    margin: 20px auto;  
+    border-radius: 8px;  
+    text-align: center;  
+    font-family: Arial, sans-serif;
+     font-size: 50px;
+     box-shadow:4px 5px 3px #d51160;
+    }
+    body{
+        background-color: aqua;
+    }
